@@ -3,24 +3,17 @@
 <html >
 <head>
     <title>REGISTRATION</title>
+<h1 id="t1">Registration form</h1>
+
 </head>
 <body>
 
-
-    <h1 id="t1">Registration form</h1>
-        
-
-
- <table width="100%"  >
+ <table>
 
     <fieldset>
         <legend>Basic Information</legend>
 
            
-                
-
-
-
            Name:
             <input type="text" name="name" value=""><br>
 
@@ -31,14 +24,13 @@
 
             DoB
             <input type="date" name="dob"  > <br>
-            
-            <label for="religion">Religion:</label>
-            <select id="religion" name="religion">
-            <option value="volvo">Islam</option>
-            <option value="saab">Hindu</option>
-            <option value="fiat">Buddo</option>
-            <option value="audi">Khirstan</option>
-            </select><br>
+            Religion:
+            <select name="religion" id="religion">
+				<option value="islam">Muslim</option>
+				<option value="hindu">Hindu</option>
+				<option value="khristan">Khristan</option>
+			</select><br>
+
             Father's Name:
             <input type="text" name="Fname" value=""><br>
 
@@ -70,21 +62,21 @@
 
             </fieldset>
 
-        <fieldset>
-             <legend>Academic Information</legend>
-
-             SSC Year:
-             <input type="number" name="SSCyear" value=""><br>
- 
-            SSC Institution
-            <input type="text" name="SSCinstitute" value="" ><br>
-             
-            HSC Year:
-             <input type="number" name="HSCyear" value=""><br>
- 
-            HSC Institution
-            <input type="text" name="HSCinstitute" value="" ><br>
-        </fieldset>
+            <fieldset>
+                <legend>Academic Information</legend>
+   
+                SSC Year:
+                <input type="number" name="SSCyear" value=""><br>
+    
+               SSC Institution
+               <input type="text" name="SSCinstitute" value="" ><br>
+                
+               HSC Year:
+                <input type="number" name="HSCyear" value=""><br>
+    
+               HSC Institution
+               <input type="text" name="HSCinstitute" value="" ><br>
+           </fieldset>
             
         
             </table>
@@ -93,6 +85,5 @@
             <input type="reset">
         </form>
     
-    </table>
 </body>
 </html>
